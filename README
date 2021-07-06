@@ -1,0 +1,7 @@
+Run a path only once
+
+You can test by running:
+bash runone.sh "php -f /path-to-the-script/test.php"
+
+If you run multiple times the test above, the following command will only show one instance:
+ps -ax | grep path-to-the-script/test.php
